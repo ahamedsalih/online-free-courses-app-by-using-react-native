@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Free Online Courses",
+    "slug": "coursepro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/img2.png",
+    "splash": {
+      "image": "./assets/img3.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.courses.salih"
+    },
+    "android": {
+      "package": "com.courses.salih"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  }
+}
